@@ -1,6 +1,6 @@
 
 // update
-module.exports.update = async (event, context) => {
+module.exports.update$RequestUpdate = async (event, context) => {
   try {
     // programming logic
     let $RequestClassid = await convertToNumber(event.pathParameters.$RequestClassid, '$RequestClassid');

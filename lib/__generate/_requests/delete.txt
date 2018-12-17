@@ -1,6 +1,6 @@
 
 // delete
-module.exports.delete = async (event, context) => {
+module.exports.delete$RequestUpdate = async (event, context) => {
   try {
     // programming logic
     let $RequestClassid = await convertToNumber(event.pathParameters.$RequestClassid, '$RequestClassid');

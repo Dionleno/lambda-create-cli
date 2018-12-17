@@ -1,6 +1,6 @@
 
 // lists all
-module.exports.getAll = async (event, context) => {
+module.exports.getAll$RequestUpdate = async (event, context) => {
   try {
     // programming logic
     let pagination = extractPaginationParameters(event);    

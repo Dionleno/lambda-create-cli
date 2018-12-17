@@ -1,6 +1,6 @@
 
 // lists by ID
-module.exports.get = async (event, context) => {
+module.exports.get$RequestUpdate = async (event, context) => {
   try {
     // programming logic
     let $RequestClassid = await convertToNumber(event.pathParameters.$RequestClassid, '$RequestClassid');

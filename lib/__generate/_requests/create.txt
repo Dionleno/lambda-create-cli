@@ -1,6 +1,6 @@
 
 // save
-module.exports.create = async (event, context) => {
+module.exports.create$RequestUpdate = async (event, context) => {
   try {
     // programming logic
     await $RequestService.Create$Request($RequestClass);
