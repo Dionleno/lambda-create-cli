@@ -1,0 +1,20 @@
+{
+  "name": "lambda-create-cli",
+  "version": "1.2.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lambda-create-cli": "bin/module.js"
+  },
+  "keywords": [
+    "lambda",
+    "nodejs",
+    "CLI"
+  ],
+  "author": "Dionleno vidaletti",
+  "license": "ISC",
+  "preferGlobal": true
+}

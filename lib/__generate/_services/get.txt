@@ -1,0 +1,9 @@
+
+/**
+ * @function Get$Service
+ * @param {id of the object to be listed} id
+ */
+module.exports.Get$Service = async (id) => {
+   // programming logic
+
+}

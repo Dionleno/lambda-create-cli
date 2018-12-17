@@ -1,0 +1,7 @@
+
+lambda-create-cli --name FunctionName => create new function with (Model,Service,Request)
+lambda-create-cli --name FunctionName --noModel => create new function without Model
+lambda-create-cli --name FunctionName --noService => create new function without Model
+lambda-create-cli --name FunctionName --noRequest => create new function without Model
+lambda-create-cli --name FunctionName --action create,update,get,getall,delete => create new function with specific actions
+lambda-create-cli --name FunctionName --path src/app => local for save your new folders

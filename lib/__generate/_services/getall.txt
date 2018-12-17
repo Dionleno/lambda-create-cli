@@ -1,0 +1,10 @@
+
+/**
+ * @function GetAll$Service
+ * @param {*} offset 
+ * @param {*} limit 
+ */
+module.exports.GetAll$Service = async (offset, limit) => {
+   // programming logic
+
+}

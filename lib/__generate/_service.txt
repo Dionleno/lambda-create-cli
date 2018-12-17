@@ -1,0 +1,48 @@
+'use strict'
+const $ServiceModel = require('../../model/$ServiceModel');
+/**
+ * @function Create$Service
+ * @param {Object to be created} $ServiceParam
+ */
+module.exports.Create$Service = async ($ServiceParam) => {
+   // programming logic
+   
+}
+
+/**
+ * @function Update$Service
+ * @param {*} $ServiceParam
+ * @param {id to be updated} id 
+ */
+module.exports.Update$Service = async ($ServiceParam, id) => {
+   // programming logic
+
+}
+
+/**
+ * @function Get$Service
+ * @param {id of the object to be listed} id
+ */
+module.exports.Get$Service = async (id) => {
+   // programming logic
+
+}
+
+/**
+ * @function GetAll$Service
+ * @param {*} offset 
+ * @param {*} limit 
+ */
+module.exports.GetAll$Service = async (offset, limit) => {
+   // programming logic
+
+}
+
+/**
+ * @function Delete$Service
+ * @param {id of the object to be deleted} id
+ */
+module.exports.Delete$Service = async (id) => {
+   // programming logic
+
+}

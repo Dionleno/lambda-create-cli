@@ -1,0 +1,9 @@
+
+/**
+ * @function Create$Service
+ * @param {Object to be created} $ServiceParam
+ */
+module.exports.Create$Service = async ($ServiceParam) => {
+   // programming logic
+   
+}

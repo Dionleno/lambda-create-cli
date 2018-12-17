@@ -1,0 +1,12 @@
+
+// save
+module.exports.create = async (event, context) => {
+  try {
+    // programming logic
+    await $RequestService.Create$Request($RequestClass);
+    return genericResponse(200); // return success 
+  } catch (error) {
+    // return exception
+    return genericResponseError(400, error);
+  }
+}

@@ -1,0 +1,13 @@
+
+// lists all
+module.exports.getAll = async (event, context) => {
+  try {
+    // programming logic
+    let pagination = extractPaginationParameters(event);    
+    let $Request = await $RequestService.GetAll$Request(pagination.offset, pagination.limit);
+    return genericResponse(201, $Request); // return success 
+  } catch (error) {
+    // return exception
+    return genericResponseError(400, error);
+  }
+}

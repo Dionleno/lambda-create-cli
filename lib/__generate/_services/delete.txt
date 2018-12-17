@@ -1,0 +1,9 @@
+
+/**
+ * @function Delete$Service
+ * @param {id of the object to be deleted} id
+ */
+module.exports.Delete$Service = async (id) => {
+   // programming logic
+
+}

@@ -1,0 +1,13 @@
+
+// lists by ID
+module.exports.get = async (event, context) => {
+  try {
+    // programming logic
+    let $RequestClassid = await convertToNumber(event.pathParameters.$RequestClassid, '$RequestClassid');
+    let $Request = await $RequestService.Get$Request($RequestClassid);
+    return genericResponse(201, $Request); // return success 
+  } catch (error) {
+    // return exception
+    return genericResponseError(400, error);
+  }
+}

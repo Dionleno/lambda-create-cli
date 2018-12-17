@@ -1,0 +1,7 @@
+'use strict'
+
+class $ModelModel {
+    constructor() {}
+}
+
+module.exports = $ModelModel;

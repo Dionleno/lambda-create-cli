@@ -1,0 +1,2 @@
+'use strict'
+const $ServiceModel = require('../model/$ServiceModel');
